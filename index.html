@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover how to build simple, accessible, and SEO-friendly web pages using HTML5. A friendly guide for beginners." />
+  <meta name="keywords" content="HTML5, Web Accessibility, SEO Basics, Beginner Web Design, Semantic HTML" />
+  <meta name="author" content="Samuel Munene"/>
+
+  <title>Getting Started with HTML</title>
+</head>
+
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to Web Design</h1>
+    <p>Learn how to build better, more inclusive websites with HTML5.</p>
+
+    <!-- Main Navigation -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main role = "main">
+
+    <!-- About Section -->
+    <article>
+      <header>
+        <h2 id="about">About This Page</h2>
+      </header>
+      <p>
+        This simple web page shows how you can use HTML to build a clean, accessible, and easy-to-understand layout. There's no CSS or JavaScript here—just plain HTML that helps everyone, including search engines and screen readers, understand your content.
+      </p>
+    </article>
+
+    <!-- Articles Section -->
+    <section aria-labelledby="articles">
+      <h2 id="articles">Helpful Articles</h2>
+
+      <article>
+        <h3>Why Use Semantic HTML?</h3>
+        <img src="https://www.w3.org/WAI/standards-guidelines/semantics/" alt="Semantic HTML">
+        <p>
+          Semantic HTML gives meaning to your content. Using the right tags helps browsers and assistive tools understand how your page is structured.
+        </p>
+      </article>
+
+      <article>
+        <h3>Making Websites More Accessible</h3>
+        <p>
+          HTML has built-in tools to help people with disabilities. Tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;main&gt;</code> help screen readers navigate your content more easily.
+        </p>
+      </article>
+    </section>
+
+    <!--Extra Resources -->
+    <aside aria-labelledby="resources">
+      <h2 id="resources">More Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN Web Docs: Learn HTML</a></li>
+        <li><a href="https://www.w3.org/WAI/" target="_blank" rel="noopener">W3C: Web Accessibility Guidelines</a></li>
+        <li><a href="https://web.dev/seo/" target="_blank" rel="noopener">Google: SEO Starter Guide</a></li>
+      </ul>
+    </aside>
+
+    <!-- Contact Section -->
+    <section>
+      <h2 id="contact">Contact Us</h2>
+      <p>
+        Have questions or want to say hello? You can reach us through our <a href="mailto:samuelmunene480@gmail.com">email</a>. We'd love to hear from you!
+      </p>
+    </section>
+  </main>
+
+  <!-- Page Footer -->
+  <footer>
+    <p>&copy; 2025 Beginner Web. Built with passion using HTML.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
