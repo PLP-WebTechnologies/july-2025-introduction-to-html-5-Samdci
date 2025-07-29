@@ -77,8 +77,32 @@
     <section>
       <h2 id="contact">Contact Us</h2>
       <p>
-        Have questions or want to say hello? You can reach us through our <a href="mailto:samuelmunene480@gmail.com">email</a>. We'd love to hear from you!
+        Have questions or want to say hello? You can reach us through our <a href="mailto:samuelmunene480@gmail.com">email</a>, or you can fill our form below.
       </p>
+
+      <h2 id="contact">Contact Us</h2>
+      <p>We would love to hear from you! Please fill out the form below:</p>
+      
+      <form action="#" method="post" aria-label="Contact form">
+        <p>
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" required aria-required="true" aria-label="Your name" />
+        </p>
+      
+        <p>
+          <label for="email">Your Email:</label><br />
+          <input type="email" id="email" name="email" required aria-required="true" aria-label="Your email address" />
+        </p>
+      
+        <p>
+          <label for="message">Your Message:</label><br />
+          <textarea id="message" name="message" rows="5" required aria-required="true" aria-label="Your message"></textarea>
+        </p>
+      
+        <p>
+          <button type="submit">Send Message</button>
+        </p>
+      </form>
     </section>
   </main>
 
